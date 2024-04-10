@@ -1,13 +1,159 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/public/assets/images/main-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+    <title>RealFact &mdash; Business Model Canvas</title>
+
+    <!-- modules import -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- CDN import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- custom import -->
+    <link rel="stylesheet" href="/public/assets/css/bootstrap-overide.css">
+    <link rel="stylesheet" href="/public/assets/css/globals.css">
+</head>
+
+<body>
+    <div class="container-fluid text-bg-white">
+        <div class="container px-0">
+            <header class="py-3">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="/index.html"
+                            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none border-2 border-end pe-4">
+                            <img src="/public/assets/images/main-logo.png" alt="Logo">
+                        </a>
+
+                        <ul class="nav col-12 col-lg-auto me-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="#" class="nav-link bmc-nav-link active">Home</a></li>
+                            <li><a href="#" class="nav-link bmc-nav-link">How to use</a></li>
+                            <li><a href="#" class="nav-link bmc-nav-link">FAQ</a></li>
+                            <li><a href="#" class="nav-link bmc-nav-promotion-link">Premium+</a></li>
+                        </ul>
+
+                        <div class="text-end border-2 border-start ps-4">
+                            <button type="button" class="btn btn-info rounded-4">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <main class="main container-fluid text-bg-light px-0">
+        <!-- BMC Main -->
+        <section class="bmc-main text-bg-secondary">
+            <img src="/public/assets/images/main-bg.png" alt="bg" class="bmc-main-img">
+            <div class="bmc-main-content">
+                <h2 class="bmc-main-content-heading">
+                    Business Model Canvas
+                </h2>
+
+                <p class="bmc-main-content-contents">
+                    You can easily create a business model that is effective and suitable for your business.
+                    Allowing you to become a professional entrepreneur again!
+                </p>
+
+                <div class="bmc-main-content-actions">
+                    <button class="btn btn-primary btn-lg rounded-4">
+                        Create Business Model Canvas
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMC Options -->
+        <section class="bmc-options container-fluid text-bg-light">
+            <div class="bmc-options-content">
+                <h2 class="bmc-options-content-heading">
+                    How it Works
+                </h2>
+
+                <p class="bmc-options-content-contents">
+                    Business Model Canvas เป็นเครื่องมือที่ช่วยให้คุณออกแบบ
+                    วางแผนธุรกิจและช่วยให้คุณมองเห็นภาพรวมของธุรกิจทั้งหมด
+                </p>
+            </div>
+
+            <div class="bmc-options-list">
+                <div class="row w-100 justify-content-between">
+                    <div class="col col-md-3">
+                        <div class="card text-center border-0">
+                            <div class="card-header border-0">
+                                <img class="" src="/public/assets/images/banner-01.png" alt="banner-01.png">
+                            </div>
+                            <div class="card-header border-0">
+                                <h5 class="h5 my-0 mt-4">
+                                    Select canvas type
+                                </h5>
+                            </div>
+                            <div class="card-footer border-0 text-muted">
+                                เลือกประเภท Canvas ของคุณ ไม่ว่าจะเป็นการสร้างด้วยตัวเอง หรือ Ai
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-3">
+                        <div class="card text-center border-0">
+                            <div class="card-header border-0">
+                                <img src="/public/assets/images/banner-02.png" alt="banner-02.png">
+                            </div>
+                            <div class="card-header border-0">
+                                <h5 class="h5 my-0 mt-4">
+                                    Edit your canvas
+                                </h5>
+                            </div>
+                            <div class="card-footer border-0 text-muted">
+                                สร้าง แก้ไข Canvas ของคุณให้เป็น
+                                ไปในแบบที่คุณต้องการ
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-3">
+                        <div class="card text-center border-0">
+                            <div class="card-header border-0">
+                                <img src="/public/assets/images/banner-03.png" alt="banner-03.png">
+                            </div>
+                            <div class="card-header border-0">
+                                <h5 class="h5 my-0 mt-4">
+                                    Export canvas
+                                </h5>
+                            </div>
+                            <div class="card-footer border-0 text-muted">
+                                สามารถบันทึก Business Model Canvas ของคุณ
+                                เพื่อนำไปต่อยอดธุรกิจ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMC Plan -->
+        <section class="bmc-plans container-fluid text-bg-secondary">
+            <div class="bmc-plans-content">
+                <h2 class="bmc-plans-content-heading">
+                    Choose Your Plan
+                </h2>
+
+                <p class="bmc-plans-content-contents">
+                    Horizontal list edit pixel slice scrolling rotate move. Selection component vector team editor.
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
 </html>
