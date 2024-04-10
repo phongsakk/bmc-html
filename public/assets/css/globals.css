@@ -52,12 +52,6 @@
     padding: 4rem;
 }
 
-.bmc-main .bmc-main-img {
-    position: relative;
-    z-index: 0;
-    width: 100%;
-}
-
 .bmc-main .bmc-main-content,
 .bmc-options .bmc-options-content,
 .bmc-plans .bmc-plans-content {
@@ -78,7 +72,8 @@
 }
 
 .bmc-main .bmc-main-content .bmc-main-content-heading,
-.bmc-options .bmc-options-content .bmc-options-content-heading {
+.bmc-options .bmc-options-content .bmc-options-content-heading,
+.bmc-plans .bmc-plans-content .bmc-plans-content-heading {
     font-size: 2rem;
     margin-top: 0;
     font-weight: 500;
@@ -87,9 +82,105 @@
 }
 
 .bmc-main .bmc-main-content .bmc-main-content-contents,
-.bmc-options .bmc-options-content .bmc-options-content-contents {
+.bmc-options .bmc-options-content .bmc-options-content-contents,
+.bmc-plans .bmc-plans-content .bmc-plans-content-contents {
     color: #9FA4BA;
     font-size: 1.25rem;
     width: 55%;
     text-align: center;
+}
+
+.bmc-main .bmc-main-img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+.bmc-options .bmc-options-list,
+.bmc-plans .bmc-plans-list {
+    margin-top: 1.25rem;
+}
+
+.bmc-plans .bmc-plans-list .plan-card {
+    box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.05);
+    color: initial;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-block: 1.5rem;
+    border-radius: 1.25rem;
+    width: 100%;
+    border: 0;
+}
+
+.bmc-plans .plans-group {
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.bmc-plans .plans-group .plans-group-item:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.bmc-plans .plans-group .plans-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+
+    gap: .25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border: 0;
+    display: flex;
+}
+
+.bmc-plans .plans-group .plans-group-item .plans-group-text {
+    color: #99A1B7;
+    display: flex;
+    gap: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.bmc-plans .plans-group .plans-group-item.active .plans-group-text {
+    color: #000000;
+}
+
+.bmc-plans .plans-group .plans-group-item .plans-group-icon {
+    color: #99A1B7;
+    background-color: #DDE0E6;
+    font-size: calc(1.275rem + .3vw);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    display: inline-flex;
+    width: 1.65rem;
+    height: 1.65rem;
+}
+
+.bmc-plans .plans-group .plans-group-item.active .plans-group-icon {
+    color: #004397;
+    background-color: #B7D7FC;
+}
+
+@media (min-width: 1200px) {
+    .bmc-plans .plans-group .plans-group-icon {
+        font-size: 1.5rem;
+    }
 }

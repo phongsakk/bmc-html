@@ -10,6 +10,7 @@
     <!-- modules import -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- CDN import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,31 +25,28 @@
 </head>
 
 <body>
-    <div class="container-fluid text-bg-white">
-        <div class="container px-0">
-            <header class="py-3">
-                <div class="container">
-                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a href="/index.html"
-                            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none border-2 border-end pe-4">
-                            <img src="/public/assets/images/main-logo.png" alt="Logo">
-                        </a>
+    <header class="container-fluid text-bg-white">
+        <div class="container px-0 py-3">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/index.html"
+                    class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none border-2 border-end pe-4">
+                    <img src="/public/assets/images/main-logo.png" alt="Logo">
+                </a>
 
-                        <ul class="nav col-12 col-lg-auto me-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
-                            <li><a href="#" class="nav-link bmc-nav-link active">Home</a></li>
-                            <li><a href="#" class="nav-link bmc-nav-link">How to use</a></li>
-                            <li><a href="#" class="nav-link bmc-nav-link">FAQ</a></li>
-                            <li><a href="#" class="nav-link bmc-nav-promotion-link">Premium+</a></li>
-                        </ul>
+                <ul class="nav col-12 col-lg-auto me-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link bmc-nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link bmc-nav-link">How to use</a></li>
+                    <li><a href="#" class="nav-link bmc-nav-link">FAQ</a></li>
+                    <li><a href="#" class="nav-link bmc-nav-promotion-link">Premium+</a></li>
+                </ul>
 
-                        <div class="text-end border-2 border-start ps-4">
-                            <button type="button" class="btn btn-info rounded-4">Sign In</button>
-                        </div>
-                    </div>
+                <div class="text-end border-2 border-start ps-4">
+                    <a href="/sign-in.html" class="btn btn-info rounded-4">Sign In</a>
                 </div>
-            </header>
+            </div>
+
         </div>
-    </div>
+    </header>
 
     <main class="main container-fluid text-bg-light px-0">
         <!-- BMC Main -->
@@ -90,7 +88,7 @@
                     <div class="col col-md-3">
                         <div class="card text-center border-0">
                             <div class="card-header border-0">
-                                <img class="" src="/public/assets/images/banner-01.png" alt="banner-01.png">
+                                <img src="/public/assets/images/banner-01.png" alt="banner-01.png">
                             </div>
                             <div class="card-header border-0">
                                 <h5 class="h5 my-0 mt-4">
@@ -151,9 +149,329 @@
                     Horizontal list edit pixel slice scrolling rotate move. Selection component vector team editor.
                 </p>
             </div>
+
+            <div class="bmc-plans-periot">
+                <div class="row w-100 py-4">
+                    <div class="col-auto mx-auto">
+                        <div class="px-2 py-1 text-bg-white rounded-4">
+                            <button class="btn px-4 py-1 rounded-3 btn-success">
+                                Monthly
+                            </button>
+                            <button class="btn px-4 py-1 rounded-3 btn-link">
+                                Yearly
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bmc-plans-list">
+                <div class="row w-100 justify-content-between">
+
+                    <!-- Plan Startup -->
+                    <div class="col col-md-4 px-3">
+                        <div class="d-flex h-100">
+                            <div class="card plan-card w-100 my-auto border-0 text-center text-bg-white">
+                                <div class="card-header border-0 text-bg-white">
+                                    <h4 class="h4 mt-2">Startup</h4>
+                                    <p class="text-secondary">
+                                        Optimal for 10+ team size and new startup
+                                    </p>
+                                    <p class="h2 text-success">99฿</p>
+                                </div>
+
+                                <div class="card-body border-0">
+                                    <div class="plans-group">
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer border-0 text-bg-white">
+                                    <div class="w-100 mt-2 text-center">
+                                        <button class="btn btn-primary px-5 rounded-4">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plan Advanced -->
+                    <div class="col col-md-4 px-3">
+                        <div class="d-flex h-100">
+                            <div class="card plan-card w-100 my-auto border-0 text-center text-bg-white">
+                                <div class="card-header border-0 text-bg-white">
+                                    <h4 class="h4 mt-2">Advanced</h4>
+                                    <p class="text-secondary">
+                                        Optimal for 10+ team size and new startup
+                                    </p>
+                                    <p class="h2 text-success">399฿</p>
+                                </div>
+
+                                <div class="card-body border-0">
+                                    <div class="plans-group">
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer border-0 text-bg-white">
+                                    <div class="w-100 mt-5 text-center">
+                                        <button class="btn btn-primary px-5 rounded-4">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plan Enterprise -->
+                    <div class="col col-md-4 px-3">
+                        <div class="d-flex h-100">
+                            <div class="card plan-card w-100 my-auto border-0 text-center text-bg-white">
+                                <div class="card-header border-0 text-bg-white">
+                                    <h4 class="h4 mt-2">Enterprise</h4>
+                                    <p class="text-secondary">
+                                        Optimal for 10+ team size and new startup
+                                    </p>
+                                    <p class="h2 text-success">999฿</p>
+                                </div>
+
+                                <div class="card-body border-0">
+                                    <div class="plans-group">
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="plans-group-item active">
+                                            <small class="plans-group-text">
+                                                Scale rotate move export arrow flows union.
+                                            </small>
+                                            <div class="plans-group-icon">
+                                                <i class="bi bi-check"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer border-0 text-bg-white">
+                                    <div class="w-100 text-center">
+                                        <button class="btn btn-primary px-5 rounded-4">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMC Description -->
+        <section class="bmc-options container-fluid text-bg-light">
+            llll
         </section>
     </main>
 
+    <footer class="container-fluid text-bg-secondary border-top border-2">
+        <div class="container px-0 py-3">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/index.html"
+                    class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none border-2 pe-4">
+                    <img src="/public/assets/images/main-logo.png" alt="Logo">
+                </a>
+
+                <div class="col-12 col-lg-auto me-lg-auto mb-2 mb-md-0 text-muted">
+                    &copy; 2024 Real-factory inc
+                </div>
+
+                <div class="text-end border-2 ps-4">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link bmc-nav-link">About</a></li>
+                        <li>
+                            <a href="#" class="nav-link bmc-nav-link">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link bmc-nav-link">Purchase</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-success" onclick="window.scrollTo(0, 0);">
+                                <i class="bi bi-caret-up-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
