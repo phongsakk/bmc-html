@@ -4,6 +4,10 @@
     --bmc-primary-darkest: #1e2176;
     --bmc-primary-lighter: #494dc9;
     --bmc-primary-lightest: #575bd5;
+    --bs-card-cap-bg: #FFFFFF;
+    --bs-card-cap-color: #FFFFFF;
+    --bs-light-rgb: #FFFFFF;
+    --bs-body-color-rgb: 255, 255, 255;
 }
 
 .btn-primary {
@@ -41,7 +45,7 @@
     --bs-btn-color: #9FA4BA;
     --bs-btn-bg: transparent;
     --bs-btn-border-color: transparent;
-    --bs-btn-hover-color: #9FA4BA;
+    --bs-btn-hover-color: #797d8e;
     --bs-btn-hover-border-color: transparent;
     --bs-btn-box-shadow: 0 0 0 #000;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
