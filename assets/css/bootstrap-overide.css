@@ -35,6 +35,11 @@
     background-color: #FFFFFF !important;
 }
 
+.text-bg-light {
+    color: #000 !important;
+    background-color: #FFFFFF !important;
+}
+
 .text-bg-primary {
     color: #004397 !important;
     background-color: #B7D7FC !important;
@@ -50,4 +55,8 @@
     --bs-btn-box-shadow: 0 0 0 #000;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     text-decoration: none;
+}
+
+.bg-muted {
+    background-color: #F9F9F9 !important;
 }

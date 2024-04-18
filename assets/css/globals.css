@@ -3,6 +3,16 @@
     font-weight: 300;
 }
 
+@media screen and (max-width: 768px) {
+    .nav-link.bmc-nav-link {
+        display: none;
+    }
+    
+    .nav-link.bmc-nav-promotion-link {
+        display: none;
+    }
+}
+
 .nav-link.bmc-nav-link {
     color: #9FA4BA;
     padding-right: 1.5rem;
@@ -17,6 +27,14 @@
 .nav-link.bmc-nav-link.active {
     font-weight: 500;
     color: #383CAF;
+}
+
+.nav-link.bmc-nav-link.nav-link-wite {
+    color: #FFFFFF;
+}
+
+.nav-link.bmc-nav-link.nav-link-wite:hover {
+    color: #5f63dd;
 }
 
 .nav-link.bmc-nav-promotion-link {
@@ -37,6 +55,10 @@
 #main,
 .main {
     min-height: calc(100dvh - 72px - 74px);
+}
+
+main.main-full {
+    min-height: 100dvh;
 }
 
 .bmc-main,
@@ -144,6 +166,7 @@
     padding-bottom: .25rem;
     border: 0;
     display: flex;
+    align-items: center;
 }
 
 .bmc-plans .plans-group .plans-group-item .plans-group-text {
@@ -183,4 +206,20 @@
     .bmc-plans .plans-group .plans-group-icon {
         font-size: 1.5rem;
     }
+}
+
+footer.bg-primary {
+    background-color: #3B3DA9 !important;
+    color: #FFFFFF !important;
+}
+
+footer.bg-primary .nav-link.bmc-nav-link {
+    color: #FFFFFF;
+    text-decoration-color: transparent;
+}
+
+footer.bg-primary .nav-link.bmc-nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F29C20;
 }
