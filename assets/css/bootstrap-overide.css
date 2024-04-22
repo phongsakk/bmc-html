@@ -1,4 +1,8 @@
 :root {
+    --bs-primary: #383CAF;
+    --bs-success: #068D45;
+    --bs-warning: #F29C20;
+    --bs-danger: #C01F24;
     --bmc-primary-main: #383CAF;
     --bmc-primary-darker: #292d8f;
     --bmc-primary-darkest: #1e2176;
@@ -25,6 +29,11 @@
     color: #9FA4BA !important;
 }
 
+.text-bg-muted {
+    color: #acacac !important;
+    background-color: #F5F5F5 !important;
+}
+
 .text-bg-secondary {
     color: initial !important;
     background-color: #F5F5F5 !important;
@@ -45,6 +54,43 @@
     background-color: #B7D7FC !important;
 }
 
+.text-bg-outline-muted {
+    color: #9FA4BA !important;
+    border: 1px solid #F3F3F3 !important;
+}
+
+.text-bg-light-secondary {
+    color: #FFFFFF !important;
+    background-color: #D9DFED !important;
+}
+
+.text-bg-light-secondary-reverse {
+    color: #D9DFED !important;
+    background-color: transparent !important;
+}
+
+.text-bg-light-danger {
+    color: #D73939 !important;
+    background-color: #FFEDED !important;
+}
+
+.btn-light-secondary {
+    --bs-btn-color: #9FA4BA;
+    --bs-btn-bg: #F9F9F9;
+    --bs-btn-border-color: #F9F9F9;
+    --bs-btn-hover-color: #F9F9F9;
+    --bs-btn-hover-bg: #cdcfdf;
+    --bs-btn-hover-border-color: #cdcfdf;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #9FA4BA;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #9FA4BA;
+    --bs-btn-disabled-bg: #F9F9F9;
+    --bs-btn-disabled-border-color: #F9F9F9;
+}
+
 .btn-link {
     --bs-btn-font-weight: 400;
     --bs-btn-color: #9FA4BA;
@@ -59,4 +105,40 @@
 
 .bg-muted {
     background-color: #F9F9F9 !important;
+}
+
+.box-shadow-sm {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 25%);
+}
+
+.fs-7 {
+    font-size: .75rem!important;
+}
+
+.fs-8 {
+    font-size: .5rem!important;
+}
+
+.fs-xs {
+    font-size: small !important;
+}
+
+.fs-sm {
+    font-size: smaller !important;
+}
+
+.fs-md {
+    font-size: medium !important;
+}
+
+.fs-md {
+    font-size: medium !important;
+}
+
+.fs-lg {
+    font-size: larger !important;
+}
+
+.fs-xl {
+    font-size: large !important;
 }

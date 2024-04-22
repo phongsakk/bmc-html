@@ -154,12 +154,10 @@ main.main-full {
 
 .bmc-plans .plans-group .plans-group-item {
     position: relative;
-    display: block;
     padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
     color: var(--bs-list-group-color);
     text-decoration: none;
     background-color: var(--bs-list-group-bg);
-    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
 
     gap: .25rem;
     padding-top: .25rem;

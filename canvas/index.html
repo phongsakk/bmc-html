@@ -9,6 +9,7 @@
 
     <!-- modules import -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -54,66 +55,292 @@
         </div>
     </header>
 
-    <main class="main-full container-fluid text-bg-secondary px-0 d-flex" style="padding-top: 72px; padding-bottom: 74px">
+    <main class="main-full container-fluid text-bg-secondary px-0 d-flex"
+        style="padding-top: 72px; padding-bottom: 74px">
         <div class="container px-5 py-3">
             <div class="w-100 text-center">
                 <h1 class="h4">Business Model Canvas</h1>
             </div>
             <div class="h-100">
                 <div class="bmc-grid-container">
-                    <div class="bmc-grid-item-1">
-                        <div class="card h-100 text-bg-danger">
-                            <div class="card-header">Value Propositions</div>
-                            <div class="card-body">111111</div>
+                    <div class="bmc-grid-item bmc-grid-item-1">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Value Propositions
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <div class="card border-0 box-shadow-sm">
+                                            <div class="card-header border-0 px-2">
+                                                <div>
+                                                    <div class="d-flex">
+                                                        <div class="w-100">
+                                                            <span class="badge text-bg-outline-muted fw-lighter">
+                                                                20 Mar 2024
+                                                            </span>
+                                                        </div>
+                                                        <button class="fade-circle-btn">
+                                                            <i class="bi bi-three-dots"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body px-2 py-1">
+                                                <small class="d-block w-100 px-1" role="textbox" contenteditable>Quality
+                                                    furniture products</small>
+                                            </div>
+                                            <div class="card-footer border-0 px-2">
+                                                <div class="row">
+                                                    <div class="col-auto me-auto d-flex gap-1"
+                                                        style="font-size: .5rem;">
+                                                        <div class="text-bg-light-danger p-1 rounded d-flex align-items-center justify-content-center"
+                                                            style="width:1rem;height:1rem">
+                                                            <i class="bi bi-flag-fill"></i>
+                                                        </div>
+                                                        <div class="text-bg-light-secondary p-1 rounded d-flex align-items-center justify-content-center"
+                                                            style="width:1rem;height:1rem">
+                                                            <i class="bi bi-bezier2"></i>
+                                                        </div>
+                                                        <div class="text-bg-light-secondary-reverse px-0 py-1 rounded d-flex align-items-center justify-content-center"
+                                                            style="height:1rem">
+                                                            <i class="bi bi-chat-text-fill me-1"
+                                                                style="font-size:0.75rem;"></i>
+                                                            1
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto ms-auto position-relative"
+                                                        style="top:-0.15rem;">
+                                                        <div class="d-flex align-items-center">
+                                                            <ul class="avatar-group mb-0 align-items-center">
+                                                                <li class="avatar avatar-xs">
+                                                                    <img class="avatar-img rounded-circle"
+                                                                        src="/assets/images/avatar/01.png" alt="avatar">
+                                                                </li>
+                                                                <li class="avatar avatar-xs">
+                                                                    <img class="avatar-img rounded-circle"
+                                                                        src="/assets/images/avatar/05.png" alt="avatar">
+                                                                </li>
+                                                                <li class="avatar avatar-xs">
+                                                                    <img class="avatar-img rounded-circle"
+                                                                        src="/assets/images/avatar/02.png" alt="avatar">
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-2">
-                        <div class="card h-100 text-bg-success">
-                            <div class="card-header">Customer Segments</div>
-                            <div class="card-body">222222</div>
+                    
+                    <div class="bmc-grid-item bmc-grid-item-2">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Customer Segments
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-3">
-                        <div class="card h-100">
-                            <div class="card-header">Customer Relationships</div>
-                            <div class="card-body">333333</div>
+                    <div class="bmc-grid-item bmc-grid-item-3">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Customer Relationships
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-4">
-                        <div class="card h-100">
-                            <div class="card-header">Channels</div>
-                            <div class="card-body">444444</div>
+                    <div class="bmc-grid-item bmc-grid-item-4">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Channels
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-5">
-                        <div class="card h-100 text-bg-info">
-                            <div class="card-header">Key Partners</div>
-                            <div class="card-body">555555</div>
+                    <div class="bmc-grid-item bmc-grid-item-5">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Key Partners
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-6">
-                        <div class="card h-100">
-                            <div class="card-header">Key Activities</div>
-                            <div class="card-body">666666</div>
+                    <div class="bmc-grid-item bmc-grid-item-6">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Key Activities
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-7">
-                        <div class="card h-100">
-                            <div class="card-header">Key Resource</div>
-                            <div class="card-body">777777</div>
+                    <div class="bmc-grid-item bmc-grid-item-7">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Key Resource
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="bmc-grid-item-8">
-                        <div class="card h-100">
-                            <div class="card-header">Cost Structure</div>
-                            <div class="card-body">888888</div>
+                    <div class="bmc-grid-item bmc-grid-item-8">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Cost Structure
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="bmc-grid-item-9">
-                        <div class="card h-100">
-                            <div class="card-header">Revenue Streams</div>
-                            <div class="card-body">999999</div>
+                    <div class="bmc-grid-item bmc-grid-item-9">
+                        <div class="bmc-card card h-100">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <span class="w-100 text-truncate">
+                                        Revenue Streams
+                                    </span>
+                                    <button class="more-info text-bg-muted">
+                                        <i class="bi bi-question"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item px-0 py-1 border-0">
+                                        <button class="btn btn-light-secondary text-start fs-7 w-100">
+                                            <i class="bi bi-plus-lg me-1"></i>
+                                            Add New
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
